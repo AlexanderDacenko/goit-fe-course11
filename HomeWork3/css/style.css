@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display/Roboto");
+
+body {
+  font-size: 0;
+}
+.wrapper {
+  width: 900px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.menu {
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 14px;
+}
+.menu-link {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 30px;
+}
+
+.menu-link:hover {
+  color: #03a9f3;
+}
+
+article {
+  width: 420px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 0 135px;
+  font-family: "Playfair Display", serif;
+}
+ 
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+img {
+  margin-bottom: 30px;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+  line-height: 2em;
+}
+
+
+.button {
+  width: 160px;
+  height: 60px;
+  display: block;
+  line-height: 60px;
+  font-size: 16px;  
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+
+main li {
+    display: inline-block;
+    margin: 0 60px 0 0;    
+}
+main li:nth-child(even){
+    margin-right: 0
+}
+
+
+
+main ul {
+    margin-top: 70px;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+ button  {
+   text-decoration: none; 
+color: black;
+     
+}
+button :hover {
+   text-decoration: none; 
+color:navy;
+     
+}
